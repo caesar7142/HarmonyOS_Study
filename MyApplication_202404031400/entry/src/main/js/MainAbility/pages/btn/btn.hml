@@ -1,0 +1,9 @@
+<div class="container">
+   <button>点我</button>
+    <button type="text">点我</button>
+    <button type="capsule">点我</button>
+    <button type="arc">点我</button>
+    <button type="download">点我</button>
+
+    <button icon="/common/img/img.png">点我</button>
+</div>
