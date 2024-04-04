@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+stepper-item{
+    flex-direction: column;
+}
+text{
+    font-size: 20px;
+    margin: 30px;
+}
+input{
+    height: 50px;
+    margin: 10px 0;
+}
+.lastStep{
+    flex-direction: row;
+}
+.lastStep text{
+    margin: 0;
+}

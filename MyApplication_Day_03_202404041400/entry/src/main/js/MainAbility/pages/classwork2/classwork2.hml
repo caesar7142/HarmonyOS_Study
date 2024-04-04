@@ -1,0 +1,26 @@
+<div class="container">
+    <stepper>
+        <stepper-item>
+            <text>第一步: 请填写商品基本信息</text>
+            <input placeholder="请输入商品标题"></input>
+            <input placeholder="请输入商品价格" type="number"></input>
+        </stepper-item>
+<!--        label接受对象信息,用来设置步骤文本-->
+        <stepper-item label="{{ labelConf }}">
+            <text>第二步: 请填写商品库存信息</text>
+            <input placeholder="请输入商品库存数量" type="number"></input>
+            <input placeholder="请输入商品库存预警数量" type="number"></input>
+        </stepper-item>
+        <stepper-item label="{{ labelConf }}">
+            <text>第三步: 请填写商品销售信息</text>
+            <div class="lastStep">
+                <input type="checkbox" checked="true"></input>
+                <text>聚划算</text>
+                <input type="checkbox"></input>
+                <text>淘金币</text>
+                <input type="checkbox"></input>
+                <text>天天特价</text>
+            </div>
+        </stepper-item>
+    </stepper>
+</div>

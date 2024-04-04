@@ -51,7 +51,8 @@
       {
         "pages": [
           "pages/index/index",
-          "pages/classwork1/classwork1"
+          "pages/classwork1/classwork1",
+          "pages/classwork2/classwork2"
         ],
         "name": ".MainAbility",
         "window": {
