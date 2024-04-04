@@ -1,0 +1,74 @@
+<div class="container">
+<grid-container style="margin: 0;">
+    <grid-row class="top">
+        <grid-col><text>首页</text></grid-col>
+        <grid-col><text>免费课</text></grid-col>
+        <grid-col><text>直播课</text></grid-col>
+        <grid-col><text>线上班</text></grid-col>
+        <grid-col><text>高校区</text></grid-col>
+    </grid-row>
+
+
+    <grid-row class="center">
+        <grid-col span="0" style="width: 20%;">
+<div class="nav">
+    <text>鸿蒙</text>
+    <text>Python</text>
+    <text>Java</text>
+    <text>PHP</text>
+    <text>C++</text>
+</div>
+        </grid-col>
+        <grid-col span="0" style="width: 80%;">
+            <swiper autoplay="true">
+                <div>
+                    <image src="/common/swiper/1.png"></image>
+                </div>
+                <div>
+                    <image src="/common/swiper/2.png"></image>
+                </div>
+                <div>
+                    <image src="/common/swiper/3.png"></image>
+                </div>
+            </swiper>
+        </grid-col>
+    </grid-row>
+
+
+
+    <grid-row class="title">
+        <grid-col span="0" style="width: 98%;">
+            <text>直播课</text>
+            <text>查看更多 >></text>
+        </grid-col>
+    </grid-row>
+
+
+<!--        大屏显示12列, 中屏显示8列 小屏显示4列 超小屏显示2列-->
+<!--        大屏显示6个, 中屏显示4个 小屏显示2个 超小屏显示1个-->
+    <grid-row class="lists">
+        <grid-col lg="2" md="2" sm="2" xs="2">
+            <image src="/common/items/1.png"></image>
+        </grid-col>
+        <grid-col lg="2" md="2" sm="2" xs="2">
+            <image src="/common/items/2.png"></image>
+        </grid-col>
+        <grid-col lg="2" md="2" sm="2" xs="2" >
+            <image src="/common/items/3.png"></image>
+        </grid-col>
+        <grid-col lg="2" md="2" sm="2" xs="2">
+            <image src="/common/items/4.png"></image>
+        </grid-col>
+        <grid-col lg="2" md="2" sm="2" xs="2">
+            <image src="/common/items/5.png"></image>
+        </grid-col>
+        <grid-col lg="2" md="2" sm="2" xs="2">
+            <image src="/common/items/6.png"></image>
+        </grid-col>
+        <grid-col lg="2" md="2" sm="2" xs="2">
+        </grid-col>
+        <grid-col lg="2" md="2" sm="2" xs="2">
+        </grid-col>
+    </grid-row>
+</grid-container>
+</div>

@@ -50,7 +50,8 @@
     "js": [
       {
         "pages": [
-          "pages/index/index"
+          "pages/index/index",
+          "pages/classwork1/classwork1"
         ],
         "name": ".MainAbility",
         "window": {
