@@ -1,6 +1,6 @@
 export default {
     data: {
-        title: ""
+        value: 20
     },
     onInit() {
         this.title = "Hello World";

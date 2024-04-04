@@ -1,5 +1,48 @@
 <div class="container">
-    <text class="title">
-        {{ title }}
-    </text>
+    <list scrolleffect="spring" divider="true">
+        <list-item-group>
+            <list-item>
+                <text>国家</text>
+            </list-item>
+            <list-item>
+                <text>china</text>
+            </list-item>
+            <list-item>
+                <text>usa</text>
+            </list-item>
+            <list-item>
+                <text>rassia</text>
+            </list-item>
+        </list-item-group>
+
+        <list-item-group>
+            <list-item>
+                <text>地区</text>
+            </list-item>
+            <list-item>
+                <text>亚洲</text>
+            </list-item>
+            <list-item>
+                <text>欧洲</text>
+            </list-item>
+            <list-item>
+                <text>美洲</text>
+            </list-item>
+        </list-item-group>
+
+
+
+        <list-item-group>
+            <list-item>
+                <image src="/common/watch1.png"></image>
+            </list-item>
+            <list-item>
+               <div>
+                   <image src="/common/watch1.png"></image>
+                   <text>1111111111111</text>
+                   <button type="arc"> 后买</button>
+               </div>
+            </list-item>
+        </list-item-group>
+   </list>
 </div>

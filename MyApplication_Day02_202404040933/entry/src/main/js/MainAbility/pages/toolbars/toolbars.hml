@@ -1,5 +1,12 @@
 <div class="container">
-    <text class="title">
-        {{ title }}
-    </text>
+    <toolbar>
+        <toolbar-item value="jia" icon="/common/images/icons/home.png"></toolbar-item>
+        <toolbar-item value="jia" icon="/common/images/icons/home.png"></toolbar-item>
+        <toolbar-item value="jia" icon="/common/images/icons/home.png"></toolbar-item>
+        <toolbar-item value="jia" icon="/common/images/icons/home.png"></toolbar-item>
+        <toolbar-item value="jia" icon="/common/images/icons/home.png"></toolbar-item>
+        <toolbar-item value="jia" icon="/common/images/icons/home.png"></toolbar-item>
+        <toolbar-item value="jia" icon="/common/images/icons/home.png"></toolbar-item>
+        <toolbar-item value="jia" icon="/common/images/icons/home.png"></toolbar-item>
+    </toolbar>
 </div>

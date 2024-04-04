@@ -1,5 +1,19 @@
 <div class="container">
-    <text class="title">
-        {{ title }}
-    </text>
+   <search searchbutton="百度一下" hint="鸿蒙"></search>
+    <text>当前搜素进度如下</text>
+    <progress type="ring" percent="30"></progress>
+    <text>移动进度条调整当前字体大小</text>
+  <slider showtips="true" step="5"></slider>
+    <text>第一条</text>
+    <text>第一条</text>
+    <text>第一条</text>
+    <text>更多。。。。</text>
+    <rating></rating>
+    <toolbar>
+        <toolbar-item value="Home"  icon="/common/images/icons/home.png"></toolbar-item>
+        <toolbar-item value="Like"  icon="/common/images/icons/home.png"></toolbar-item>
+        <toolbar-item value="Fish"  icon="/common/images/icons/home.png"></toolbar-item>
+        <toolbar-item value="Me"  icon="/common/images/icons/home.png"></toolbar-item>
+    </toolbar>
+
 </div>

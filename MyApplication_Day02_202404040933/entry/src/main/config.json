@@ -51,12 +51,17 @@
       {
         "pages": [
           "pages/index/index",
-          "pages/seaches/seaches"
+          "pages/seaches/seaches",
+          "pages/prog/prog",
+          "pages/slide/slide",
+          "pages/toolbars/toolbars",
+          "pages/classwork1/classwork1",
+          "pages/classwork2/classwork2"
         ],
         "name": ".MainAbility",
         "window": {
           "designWidth": 720,
-          "autoDesignWidth": false
+          "autoDesignWidth": true
         }
       }
     ]

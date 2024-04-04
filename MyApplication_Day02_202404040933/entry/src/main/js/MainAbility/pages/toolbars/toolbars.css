@@ -16,3 +16,14 @@
     height: 40%;
     margin: 10px;
 }
+
+toolbar{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+}
+search{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}

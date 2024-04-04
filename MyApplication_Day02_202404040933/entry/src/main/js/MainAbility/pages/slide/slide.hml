@@ -1,5 +1,5 @@
 <div class="container">
-    <text class="title">
-        {{ title }}
-    </text>
+   <slider></slider>
+<!--为啥加了 min max 后 step 失效了-->
+   <slider showtips="true" step="10" min="10" max="80" value="{{ value }}"></slider>
 </div>

@@ -1,5 +1,5 @@
 <div class="container">
-    <text class="title">
-        {{ title }}
-    </text>
-</div>
+ <progress></progress>
+
+    <progress type="scale-ring" percent="65" secondarypercent="90"></progress>
+    <progress type="ring" percent="65"></progress>

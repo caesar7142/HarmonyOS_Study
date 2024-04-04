@@ -1,5 +1,3 @@
 <div class="container">
-    <text class="title">
-        {{ title }}
-    </text>
+<search searchbutton="百度一下" hint="please input"></search>
 </div>
