@@ -1,0 +1,4 @@
+<div class="container">
+    <input type="checkbox" id="re"></input>
+    <label target="re">rember passwd</label>
+</div>
