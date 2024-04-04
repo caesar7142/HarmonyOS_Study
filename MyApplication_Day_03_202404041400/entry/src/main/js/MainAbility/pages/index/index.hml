@@ -1,5 +1,71 @@
 <div class="container">
-    <text class="title">
-        {{ $t('strings.hello') }} {{ title }}
-    </text>
+
+<!--    栅格布局
+grid-container 支持宽高
+     columns 属性一般不写, 因为数字值是非法的
+grid-row 不支持宽度
+grid-col 不支持宽度
+-->
+    <grid-container class="main">
+        <grid-row>
+            <grid-col span="0">
+                <div>
+                    <image src="/common/department/allergy.png"></image>
+                    <text>申哥</text>
+                </div>
+            </grid-col>
+            <grid-col span="0">
+                <div>
+                    <image src="/common/department/allergy.png"></image>
+                    <text>申哥</text>
+                </div>
+            </grid-col>
+            <grid-col span="0">
+                <div>
+                    <image src="/common/department/allergy.png"></image>
+                    <text>申哥</text>
+                </div>
+            </grid-col>
+        </grid-row>
+        <grid-row>
+            <grid-col span="0">
+                <div>
+                    <image src="/common/department/allergy.png"></image>
+                    <text>申哥</text>
+                </div>
+            </grid-col>
+            <grid-col span="0">
+                <div>
+                    <image src="/common/department/allergy.png"></image>
+                    <text>申哥</text>
+                </div>
+            </grid-col>
+            <grid-col span="0">
+                <div>
+                    <image src="/common/department/allergy.png"></image>
+                    <text>申哥</text>
+                </div>
+            </grid-col>
+        </grid-row>
+        <grid-row>
+            <grid-col span="0">
+                <div>
+                    <image src="/common/department/gynaecology.png"></image>
+                    <text>申哥</text>
+                </div>
+            </grid-col>
+            <grid-col span="0">
+                <div>
+                    <image src="/common/department/eyes.png"></image>
+                    <text>申哥</text>
+                </div>
+            </grid-col>
+            <grid-col span="0">
+                <div>
+                    <image src="/common/department/ear.png"></image>
+                    <text>申哥</text>
+                </div>
+            </grid-col>
+        </grid-row>
+    </grid-container>
 </div>
