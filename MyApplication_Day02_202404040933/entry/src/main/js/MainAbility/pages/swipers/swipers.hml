@@ -1,5 +1,8 @@
 <div class="container">
-    <text class="title">
-        {{ title }}
-    </text>
+    <swiper scrolleffect="spring" autoplay="true" indicatordisabled="true"
+            digital="false"><div>
+        <image src="/common/swiper-1.jpg"></image></div>
+        <div><image src="/common/swiper-2.jpg"></image></div>
+        <div> <image src="/common/swiper-3.jpg"></image></div>
+    </swiper>
 </div>

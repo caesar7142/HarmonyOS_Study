@@ -16,3 +16,12 @@
     height: 40%;
     margin: 10px;
 }
+swiper{
+    height: 240px;
+    indicator-size: 20px;
+    indicator-color: red;
+}
+image{
+    width: 100%;
+    height: 240px;
+}
