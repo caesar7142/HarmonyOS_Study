@@ -57,7 +57,8 @@
           "pages/toolbars/toolbars",
           "pages/classwork1/classwork1",
           "pages/classwork2/classwork2",
-          "pages/swipers/swipers"
+          "pages/swipers/swipers",
+          "pages/badges/badges"
         ],
         "name": ".MainAbility",
         "window": {

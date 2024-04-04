@@ -1,0 +1,3 @@
+<div class="container">
+    <badge count="10" visible="true" maxcount="9"><text>message</text></badge>
+</div>
