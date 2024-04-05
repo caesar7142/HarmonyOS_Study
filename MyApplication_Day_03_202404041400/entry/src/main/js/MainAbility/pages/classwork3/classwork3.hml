@@ -1,0 +1,89 @@
+<div class="container">
+    <tabs vertical="true">
+        <tab-bar>
+            <text>
+                叶菜海鲜
+            </text>
+
+
+            <text>
+                叶菜海鲜
+            </text>
+
+            <text>
+                叶菜海鲜
+            </text>
+        </tab-bar>
+        <tab-content>
+            <div class="tab_group">
+                <div class="tab_item">
+                    <image src="/common/goods/1.png"></image>
+                    <text>
+                        山东黄瓜100g今日上新
+                    </text>
+                    <button icon="/common/cart.png"></button>
+                </div>
+                <div class="tab_item">
+                    <image src="/common/goods/1.png"></image>
+                    <text>
+                        山东黄瓜100g今日上新
+                    </text>
+                    <button icon="/common/cart.png"></button>
+                </div>
+                <div class="tab_item">
+                    <image src="/common/goods/1.png"></image>
+                    <text>
+                        山东黄瓜100g日上新
+                    </text>
+                    <button icon="/common/cart.png"></button>
+                </div>
+            </div>
+            <div class="tab_group">
+                <div class="tab_item">
+                    <image src="/common/goods/1.png"></image>
+                    <text>
+                        山东黄瓜100g今日上新
+                    </text>
+                    <image src="/common/cart.png"></image>
+                </div>
+                <div class="tab_item">
+                    <image src="/common/goods/1.png"></image>
+                    <text>
+                        山东黄瓜100g日上新
+                    </text>
+                    <image src="/common/cart.png"></image>
+                </div>
+                <div class="tab_item">
+                    <image src="/common/goods/1.png"></image>
+                    <text>
+                        山黄瓜100g今日上新
+                    </text>
+                    <button icon="/common/cart.png"></button>
+                </div>
+            </div>
+            <div class="tab_group">
+                <div class="tab_item">
+                    <image src="/common/goods/1.png"></image>
+                    <text>
+                        山东黄瓜100g今日上新
+                    </text>
+                    <image src="/common/cart.png"></image>
+                </div>
+                <div class="tab_item">
+                    <image src="/common/goods/1.png"></image>
+                    <text>
+                        山东黄瓜100g今日上新
+                    </text>
+                    <image src="/common/cart.png"></image>
+                </div>
+                <div class="tab_item">
+                    <image src="/common/goods/1.png"></image>
+                    <text>
+                        山东瓜100g今日上新
+                    </text>
+                    <button icon="/common/cart.png"></button>
+                </div>
+            </div>
+        </tab-content>
+    </tabs>
+</div>
