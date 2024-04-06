@@ -55,7 +55,7 @@
         "name": ".MainAbility",
         "window": {
           "designWidth": 720,
-          "autoDesignWidth": false
+          "autoDesignWidth": true
         }
       }
     ]
