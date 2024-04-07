@@ -1,0 +1,12 @@
+<div class="container">
+    <text class="title">
+        {{ title }}
+    </text>
+
+
+
+
+    <text class="{{isChange? 'pink':'gran'}}" @click="clorchang">
+        changge color
+    </text>
+</div>

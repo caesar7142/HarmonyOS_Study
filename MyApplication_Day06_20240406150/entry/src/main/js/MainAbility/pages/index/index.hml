@@ -1,0 +1,35 @@
+<div class="container">
+<!--  <input type="text" placeholder="yonghi">{{username}}</input>-->
+<!--  <input type="password">{{password}}</input>-->
+<!--  <text class="{{isTrue ? className :''}}">122222222</text>-->
+
+<!--<div class="div" for="classList">-->
+<!--    <text>{{$idx}}.{{$item}}</text>-->
+<!--</div>-->
+
+
+
+<!--<div class="div" for="{{v in carList}}">-->
+<!--    <text>{{$idx}}.{{v.id}}  {{v.cname}}  </text>-->
+<!--</div>-->
+
+
+<!--    <div class="div" for="{{(k,v) in carList}}">-->
+<!--        <text>{{k}}.{{v.id}}  {{v.cname}}  </text>-->
+<!--    </div>-->
+
+
+
+
+<!--  <text if="{{isShow}}">122222222</text>-->
+<!--<text else>3</text>-->
+
+
+  <text if="{{orderType==1}}">1111</text>
+  <text elif="{{orderType==2}}">2222222</text>
+
+  <text elif="{{orderType==3}}">333333</text>
+  <text else>444444</text>
+
+  
+</div>

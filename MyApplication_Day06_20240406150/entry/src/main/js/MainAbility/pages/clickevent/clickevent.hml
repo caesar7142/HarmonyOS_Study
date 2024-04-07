@@ -1,0 +1,22 @@
+<div class="container">
+
+<!--    <text class="title">-->
+<!--        {{ title }}-->
+<!--    </text>-->
+<!--    -->
+<!--    -->
+
+<!--    <button type="capsule" @click="onlick">click me</button>-->
+<!--    <text>{{int}}-->
+<!--    </text>-->
+
+
+    <text>
+        {{ name }}
+    </text>
+    <text>{{ passwd }}
+    </text>
+
+    <input type="text" placeholder="名称" @change="changename"></input>
+    <input type="password" placeholder="密码" @change="changgeps"></input>
+</div>
