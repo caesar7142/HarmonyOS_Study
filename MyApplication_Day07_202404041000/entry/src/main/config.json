@@ -1,7 +1,7 @@
 {
   "app": {
-    "bundleName": "com.example.myapplication_day07_202404041000",
     "vendor": "example",
+    "bundleName": "com.example.myapplication_day07_202404041000",
     "version": {
       "code": 1000000,
       "name": "1.0.0"
@@ -9,19 +9,11 @@
   },
   "deviceConfig": {},
   "module": {
-    "package": "com.example.myapplication_day07_202404041000",
-    "name": ".entry",
     "mainAbility": ".MainAbility",
     "deviceType": [
       "phone",
       "tablet"
     ],
-    "distro": {
-      "deliveryWithInstall": true,
-      "moduleName": "entry",
-      "moduleType": "entry",
-      "installationFree": false
-    },
     "abilities": [
       {
         "skills": [
@@ -35,27 +27,43 @@
           }
         ],
         "orientation": "unspecified",
-        "formsEnabled": false,
+        "visible": true,
+        "srcPath": "MainAbility",
         "name": ".MainAbility",
         "srcLanguage": "js",
-        "srcPath": "MainAbility",
         "icon": "$media:icon",
         "description": "$string:MainAbility_desc",
+        "formsEnabled": false,
         "label": "$string:MainAbility_label",
         "type": "page",
-        "visible": true,
         "launchType": "standard"
       }
     ],
+    "distro": {
+      "moduleType": "entry",
+      "installationFree": false,
+      "deliveryWithInstall": true,
+      "moduleName": "entry"
+    },
+    "package": "com.example.myapplication_day07_202404041000",
+    "name": ".entry",
     "js": [
       {
         "pages": [
-          "pages/index/index"
+          "pages/index/index",
+          "pages/demo1/demo1",
+          "pages/demo2/demo2",
+          "pages/commpent/mycompent01/mycompent01",
+          "pages/commpent/mycompent02/mycompent01",
+          "pages/demo3/demo3",
+          "pages/commpent/todoitem/todoitem",
+          "pages/commpent/todolist/todolist",
+          "pages/commpent/todo/todo"
         ],
         "name": ".MainAbility",
         "window": {
           "designWidth": 720,
-          "autoDesignWidth": false
+          "autoDesignWidth": true
         }
       }
     ]

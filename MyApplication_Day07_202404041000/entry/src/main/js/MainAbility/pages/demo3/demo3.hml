@@ -1,0 +1,13 @@
+<element src="../commpent/mycompent02/mycompent01.hml"></element>
+<div class="container">
+
+    <text class="title">
+       父传子 {{ say }}
+    </text>
+    <mycompent01 msg='122222' say='{{say}}'></mycompent01>
+
+    <text class="title">
+        子 传父 {{ say }}
+    </text>
+    <mycompent01 msg='122222' say='{{say}}' @event_click="onChangge"></mycompent01>
+</div>

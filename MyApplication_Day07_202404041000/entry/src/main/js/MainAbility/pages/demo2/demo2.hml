@@ -1,0 +1,7 @@
+<div class="container">
+<div class="dq" id="ani"></div>
+    <button type="capsule" @click="onPlay">play</button>
+    <button type="capsule" @click="onEnd">end</button>
+    <button type="capsule" @click="onPurse">purse</button>
+    <button type="capsule" @click="onResv">resv</button>
+</div>

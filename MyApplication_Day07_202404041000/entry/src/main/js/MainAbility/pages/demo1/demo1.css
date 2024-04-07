@@ -1,0 +1,120 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+@keyframes change1{
+    from{
+background-color: red;
+     opacity: 0;
+    }
+    to{
+background-color: blue;
+        opacity: .4;
+    }
+}
+.d1{
+    width: 200px;
+    height: 200px;
+    animation: change1 3s linear;
+}
+
+@keyframes change2{
+    0%{
+
+        background-color: red;
+
+    }   20%{
+        width: 300px;
+        height: 300px;
+
+        background-color: palegoldenrod;
+
+    }    40%{
+        width: 500px;
+        height: 300px;
+
+        background-color: green;
+
+    }80%{
+        width: 300px;
+        height: 300px;
+
+        background-color: paleturquoise;
+
+    }100%{
+        width: 300px;
+        height: 300px;
+
+        background-color: palevioletred;
+
+    }
+
+}
+.d2{
+    width: 200px;
+    height: 200px;
+    animation: change2 3s linear 5;
+}
+@keyframes change3{
+    0%{
+
+        background-color: red;
+        transform: translate(20px,30px) rotate(60deg) scale(1);
+
+    }   50%{
+        width: 300px;
+        height: 300px;
+        transform: translate(20px,30px) rotate(180deg) scale(1.5);
+        background-color: palegoldenrod;
+
+    } 100%{
+        width: 300px;
+        height: 300px;
+
+        background-color: palevioletred;
+        transform: translate(20px,30px) rotate(360deg) scale(3);
+
+    }
+
+}
+.d3{
+    width: 200px;
+    height: 200px;
+    animation: change3 3s linear infinite;
+}
+
+
+
+
+
+@keyframes change4{
+    0%{
+
+        background-color: red;
+        transform: translate(20px,0px) rotate(0) scale(1);
+
+    }   50%{
+
+        transform: translate(20px,30px) rotate(0deg) scale(1);
+        background-color: palegoldenrod;
+
+    } 100%{
+
+
+        background-color: palevioletred;
+        transform: translate(20px,70px) rotate(0deg) scale(1);
+
+    }
+
+}
+.d4{
+    width: 200px;
+    height: 200px;
+    animation: change4 3s linear infinite;
+}

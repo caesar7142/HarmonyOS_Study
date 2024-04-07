@@ -1,0 +1,9 @@
+<element src="../todolist/todolist.hml"></element>
+<div class="container">
+    <text class="title">
+      待办列表
+    </text>
+    <input placeholder="请输入代办" @change="changeItem"></input>
+    <button type="capsule" @click="addTodo">提交</button>
+  <todolist class="todolist" items='{{items}}' @del='del'>  </todolist>
+</div>

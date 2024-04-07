@@ -1,0 +1,10 @@
+<div class="container">
+    <text class="title">
+        外置组件
+    </text>
+    <text class="title">
+        {{ num }}
+    </text>
+    <button type="capsule" @click="onIncr">增加</button>
+    <button type="capsule" @click="onDicr">减少</button>
+</div>

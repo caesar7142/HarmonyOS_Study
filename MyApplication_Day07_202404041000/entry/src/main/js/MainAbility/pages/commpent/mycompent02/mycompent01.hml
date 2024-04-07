@@ -1,0 +1,13 @@
+<div class="container">
+    <text class="title">
+        外置组件01
+    </text>
+    <text class="title">
+        {{msg}}
+    </text>
+    <text class="title">
+        {{say}}
+    </text>
+    <button type="capsule" @click="onChangge">修改</button>
+
+</div>

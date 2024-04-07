@@ -1,0 +1,10 @@
+
+<div class="container">
+<text>
+
+  {{idx}}.{{item}} </text> <text @click="del">x</text>
+
+
+
+<!--  <text>{{ idx + 1 }}. {{ item }}  </text>-->
+</div>

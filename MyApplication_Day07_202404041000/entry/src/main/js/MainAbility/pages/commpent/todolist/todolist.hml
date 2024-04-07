@@ -1,0 +1,19 @@
+<element src="../todoitem/todoitem.hml"></element>
+<div class="container">
+
+<!--  <list for="{{items}}">-->
+
+<!--  <list-item>  <todoitem idx='{{$idx}}'  item='{{$item}}' ></todoitem></list-item>-->
+<!--</list>-->
+
+
+  <list>
+    <list-item for="{{ items }}">
+      <todoitem idx="{{$idx}}"
+                 item="{{$item}}"
+                @del='del'
+              ></todoitem>
+    </list-item>
+  </list>
+
+</div>
