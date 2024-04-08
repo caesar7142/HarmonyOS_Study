@@ -1,0 +1,5 @@
+<div class="container">
+    <text class="title" onclick="gotolist">
+       带有卡片的应用  跳转
+    </text>
+</div>

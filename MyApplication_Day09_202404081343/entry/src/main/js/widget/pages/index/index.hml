@@ -1,0 +1,22 @@
+<div class="container" onclick="routerEvent">
+    <div class="container-top">
+        <stack class="stack">
+            <image class="widget-img" src="/common/widget.png"></image>
+            <text class="sname">
+              {{sname}}
+            </text>
+            <div class="operate">
+                <image src="/common/prev.png" class="operate-icon"></image>
+                <image src="/common/play.png" class="operate-icon"></image>
+                <image src="/common/next.png" class="operate-icon"></image>
+            </div>
+            
+        </stack>
+    </div>
+    <div class="container-bottom">
+        <div class="card" for="{{cardInfo}}" tid='cid'>
+            <image src="{{$item.iconPath}}" class="card-img"></image>
+            <text class="card-text">{{$item.text}}</text>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,15 @@
+{
+  "data": {
+    "title": "Title",
+    "detail": "Text"
+  },
+  "actions": {
+    "routerEvent": {
+      "action": "router",
+      "abilityName": "com.example.myapplication_day09_2202404080945.MainAbility",
+      "params": {
+        "message": "add detail"
+      }
+    }
+  }
+}

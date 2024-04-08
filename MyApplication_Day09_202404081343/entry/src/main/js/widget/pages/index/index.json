@@ -1,0 +1,43 @@
+{
+  "data": {
+    "sname": "Traveling  Light",
+    "cardInfo": [
+      {
+        "cid": 1,
+        "iconPath": "/common/icons/down.png",
+        "text": "本地"
+      },
+      {
+        "cid": 2,
+        "iconPath": "/common/icons/date.png",
+        "text": "每日推荐"
+      },
+      {
+        "cid": 3,
+        "iconPath": "/common/icons/like.png",
+        "text": "我喜欢"
+      },
+      {
+        "cid": 4,
+        "iconPath": "/common/icons/vip.png",
+        "text": "会员专区"
+      }
+    ]
+  },
+  "actions": {
+    "routerEvent": {
+      "action": "router",
+      "abilityName": "com.example.myapplication_day09_202404081343.MainAbility",
+      "params": {
+        "message": "this message is of routerEvent"
+      }
+    }
+  },
+
+  "messageEvent": {
+    "action": "message",
+    "params": {
+      "message": "this message is of messageEvent"
+    }
+  }
+}

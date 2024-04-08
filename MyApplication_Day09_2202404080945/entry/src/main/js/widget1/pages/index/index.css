@@ -1,0 +1,64 @@
+.container{
+    flex-direction: column;
+background-color: aqua;
+    justify-content: center;
+    align-items: center;
+}
+.container-top{
+    margin-top: 10vp;
+    height: 90%;
+    justify-content: center;
+}
+.stack{
+    justify-content: center;
+}
+.sname{
+    color: white;
+    font-size: 10fp;
+    margin-top: 35vp;
+}
+.widget-img{
+    width: 90%;
+
+/*    height: 50%;*/
+    object-fit: fill;
+    border-radius: 8px;
+}
+
+.operate {
+    width: 50%;
+    margin-top: 48vp;
+    justify-content: space-around;
+}
+
+.operate-icon{
+    width: 10vp;
+    height: 10vp;
+}
+
+/*底部*/
+.container-bottom{
+    height: 100%;
+    width: 94%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 45%;
+    height: 40%;
+    border-radius: 8vp;
+    margin-top: 6vp;
+}
+.card-img{
+    width: 20vp;
+    height: 20vp;
+}
+.card-text{
+    font-size: 8fp;
+    color: #ff541f1f;
+    margin-top: 2vp;
+}
