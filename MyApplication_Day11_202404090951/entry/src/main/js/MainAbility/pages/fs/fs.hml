@@ -1,0 +1,8 @@
+<div class="container">
+<button type="capsule" @click="createDirPromise">创建目录Promise</button>
+    <button type="capsule" @click="createDircallback">创建目录callback</button>
+    <button type="capsule" @click="readDir">读取目录readDir</button>
+    <button type="capsule" @click="writeFile">写入文件writeFile</button>
+
+    <button type="capsule" @click="readFile">读取文件readFile</button>
+</div>

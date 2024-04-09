@@ -2,10 +2,10 @@
     <div class="main">
         <text class="title">欢迎回来</text>
         <text class="say">Hi ~ 好久不见,快来登录吧</text>
-        <input class="input" type="text" placeholder="请输入用户名" value="{{ username }}" @change="changeName"/>
-        <input class="input" type="password" placeholder="请输入用户名密码" value="{{ userpwd }}" @change="changePwd"/>
+        <input class="input" type="text" placeholder="请输入用户名" value="{{uname}}" @change="changeName"/>
+        <input class="input" type="password" placeholder="请输入用户名密码" value="{{upwd}}" @change="changePwd"/>
         <div class="row">
-            <input type="checkbox" id="remember" @change="changeChecked" checked="false"/>
+            <input type="checkbox" id="remember" @change="changeChecked" checked="{{isChecked}}"/>
             <label target="remember">记住账号</label>
             <text class="forget">忘记密码?</text>
         </div>

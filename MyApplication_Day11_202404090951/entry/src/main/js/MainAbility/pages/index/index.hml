@@ -1,5 +1,6 @@
 <div class="container">
-    <text class="title">
-        {{ $t('strings.hello') }} {{ title }}
-    </text>
+   <button type="capsule" @click="linkLogin">跳转到linkLogin</button>
+    <button type="capsule" @click="linkDemo1">跳转到linkDemo1</button>
+
+    <button type="capsule" @click="linkFs">跳转到linkFs</button>
 </div>

@@ -52,7 +52,8 @@
         "pages": [
           "pages/index/index",
           "pages/demo01/demo01",
-          "pages/login/login"
+          "pages/login/login",
+          "pages/fs/fs"
         ],
         "name": ".MainAbility",
         "window": {
