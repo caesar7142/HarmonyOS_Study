@@ -53,7 +53,8 @@
           "pages/index/index",
           "pages/demo01/demo01",
           "pages/login/login",
-          "pages/fs/fs"
+          "pages/fs/fs",
+          "pages/message/message"
         ],
         "name": ".MainAbility",
         "window": {
