@@ -1,0 +1,8 @@
+<div class="container">
+    <text class="title" @click="gotoReg">
+       点击我跳转reg
+    </text>
+    <text class="title" @click="gotoReg">
+       {{uname}}
+    </text>
+</div>

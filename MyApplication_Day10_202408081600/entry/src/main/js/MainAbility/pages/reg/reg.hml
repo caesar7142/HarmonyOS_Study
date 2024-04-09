@@ -1,0 +1,5 @@
+<div class="container">
+    <text class="title" @click="gotoIndex">
+       点击返回index
+    </text>
+</div>

@@ -1,0 +1,5 @@
+<div class="container">
+    <text class="title" grab:click="onclick2">
+        写入内容
+    </text>
+</div>
