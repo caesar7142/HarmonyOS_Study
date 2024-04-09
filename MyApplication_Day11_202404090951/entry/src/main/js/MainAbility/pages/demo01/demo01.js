@@ -135,4 +135,41 @@ export default {
             })
         })
     }
+
+
+,
+    del(){
+        let context= featureAbility.getContext()
+        dataPreferences.deletePreferences(context,'myinfo',err=>{
+            if(!err){
+                console.log('del success')
+            }
+            else {
+                console.log('del fail')
+            }
+
+
+
+
+
+
+        })
+    },
+    rem(){
+        let context= featureAbility.getContext()
+        dataPreferences.removePreferencesFromCache(context,'myinfo',err=>{
+            if(!err){
+                console.log('del success')
+            }
+            else {
+                console.log('del fail')
+            }
+
+
+
+
+
+
+        })
+    }
 }

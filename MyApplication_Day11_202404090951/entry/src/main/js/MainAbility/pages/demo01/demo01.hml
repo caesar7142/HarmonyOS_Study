@@ -15,4 +15,8 @@
     </button>
     <button type="capsule" @click="clearData">清除数据
     </button>
+    <button type="capsule" @click="del">del实列
+    </button>  <button type="capsule" @click="rem">remove实列
+</button>
+
 </div>
