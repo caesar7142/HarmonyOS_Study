@@ -1,0 +1,3 @@
+<div class="container">
+<slider onchange="onchnsge"></slider>
+</div>

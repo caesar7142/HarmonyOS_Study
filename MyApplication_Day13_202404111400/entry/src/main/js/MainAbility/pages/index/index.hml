@@ -1,5 +1,32 @@
 <div class="container">
-    <text class="title">
-        {{ $t('strings.hello') }} {{ title }}
-    </text>
+    <video id="video"
+            src="{{ src }}"
+           autoplay="{{ autoPlay }}"
+           poster="{{ poster }}"
+           loop="{{ loop }}"
+           controls="{{ controlShow }}"
+
+
+           onprepared="prepared"
+           onstart="start"
+           onpause="pause"
+
+           onclick="viderPlay"
+            >
+
+
+    </video>
+
+    <image show="{{ ! isPlay }}" src="{{ playIcon }}"  onclick="viderPlay"></image>
+    <div class="progress">
+        <div class="btn-image">
+            <image src="{{isPlay? pauseIcon: playIcon }}" onclick="viderPlay"></image>
+
+        </div>
+        <div class="slide-info">
+            <text class="now-time">{{nowTime}}</text>
+            <slider min="{{sliderMin}}" max="{{sliderMax}}" value="{{sliderVal}}" mode="outset"></slider>
+            <text class="duration-time">{{durationTime}}</text>
+        </div>
+    </div>
 </div>
