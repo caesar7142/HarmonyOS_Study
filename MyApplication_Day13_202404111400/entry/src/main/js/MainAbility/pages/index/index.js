@@ -59,6 +59,14 @@ export default {
             num = `0${num}`
         }
         return num
+    },
+    changesliderVal(value){
+        this.sliderVal=value.value
+    }
+,
+    timeupdate(event){
+        console.log('timeupdate  触发',event)
+         event.currenttime=this.sliderVal
     }
 }
 

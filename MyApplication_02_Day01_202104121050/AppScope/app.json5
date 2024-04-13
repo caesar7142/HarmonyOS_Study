@@ -1,0 +1,10 @@
+{
+  "app": {
+    "bundleName": "com.example.myapplication_02_day01_202104121050",
+    "vendor": "example",
+    "versionCode": 1000000,
+    "versionName": "1.0.0",
+    "icon": "$media:app_icon",
+    "label": "$string:app_name"
+  }
+}
