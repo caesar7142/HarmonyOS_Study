@@ -1,17 +1,12 @@
 @Entry
 @Component
-struct Index {
-  @State message: string = 'Hello World';
-
+struct  Settings{
   build() {
-    Row() {
-      Column() {
-        Text(this.message)
-          .fontSize(50)
-          .fontWeight(FontWeight.Bold)
-      }
-      .width('100%')
+    Column(){
+      Button('button0')
+      Button('button1')
+      Text('text0')
+      Text('text0').fontColor(Color.Blue )
     }
-    .height('100%')
   }
 }
