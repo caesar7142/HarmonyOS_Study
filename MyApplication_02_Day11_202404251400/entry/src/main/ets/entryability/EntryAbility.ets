@@ -4,32 +4,29 @@ import { window } from '@kit.ArkUI';
 
 export default class EntryAbility extends UIAbility {
   onCreate(want: Want, launchParam: AbilityConstant.LaunchParam): void {
-    hilog.info(0x0000, 'testTag', '%{public}s', 'Ability onCreate');
+    console.log('--1 onCreate :能力被创建了 ')
   }
 
   onDestroy(): void {
-    hilog.info(0x0000, 'testTag', '%{public}s', 'Ability onDestroy');
+    console.log('-- 6 onDestroy :能力被销毁 ')
   }
 
   onWindowStageCreate(windowStage: window.WindowStage): void {
     // Main window is created, set main page for this ability
-    hilog.info(0x0000, 'testTag', '%{public}s', 'Ability onWindowStageCreate');
+    console.log('--2 onWindowStageCreate :窗口被创建了 ')
 
     windowStage.loadContent('pages/IndexVideo');
   }
 
   onWindowStageDestroy(): void {
-    // Main window is destroyed, release UI related resources
-    hilog.info(0x0000, 'testTag', '%{public}s', 'Ability onWindowStageDestroy');
+    console.log('-- 5 onWindowStageDestroy :窗口被销毁 ')
   }
 
   onForeground(): void {
-    // Ability has brought to foreground
-    hilog.info(0x0000, 'testTag', '%{public}s', 'Ability onForeground');
+    console.log('-- 3 onForeground :窗口被置于前台 ')
   }
 
   onBackground(): void {
-    // Ability has back to background
-    hilog.info(0x0000, 'testTag', '%{public}s', 'Ability onBackground');
+    console.log('-- 4 onBackground :窗口被置于后台 ')
   }
 }
