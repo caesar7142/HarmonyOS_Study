@@ -1,6 +1,7 @@
 {
   "module": {
     "name": "entry",
+    "srcEntry": "./ets/MyAbility/MyAbility.ets",
     "type": "entry",
     "description": "$string:module_desc",
     "mainElement": "EntryAbility",
@@ -22,6 +23,8 @@
         "startWindowIcon": "$media:startIcon",
         "startWindowBackground": "$color:start_window_background",
         "exported": true,
+        "launchType": "specified",
+
         "skills": [
           {
             "entities": [

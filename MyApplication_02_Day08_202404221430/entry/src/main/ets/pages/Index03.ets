@@ -14,30 +14,19 @@ struct Index {
   build() {
     Column(){
 
-      Button("Button").onClick(async ()=>{
-        let photoViewPicker=new picker.PhotoViewPicker
-     let re=  await photoViewPicker.select({maxSelectNumber:1})
-  let f= fs.openSync(re.photoUris[0],fs.OpenMode.READ_ONLY)
-       let stat= fs.statSync(f.fd)
-        let buf=new ArrayBuffer(stat.size)
-        fs.readSync(f.fd,buf)
-        fs.closeSync(f)
+    Button('DOWNLOAD').onClick(async ()=>{
+      let config:AxiosRequestConfig={
+        "method":"GET",
+        "url":""
+      }
+    let res:AxiosResponse= await axios(config)
 
-
-
-        let data=new FormData()
-        data.append("avatar",buf)
-        let cofig:AxiosRequestConfig={
-          url:'',
-          method:"POST",
-          headers:{
-            'Content-Type':'multipart/form-data',
-            'token': ''
-          },
-          data:data
-        }
-        let res:AxiosResponse= await  axios(cofig)
-      })
+     let pvp= new picker.PhotoViewPicker()
+     let result= await pvp.save({newFileNames:[Date.now()+'.png']})
+      let path=result[0]
+      let f=fs.openSync(path,fs.OpenMode.CREATE|fs.OpenMode.WRITE_ONLY)
+      fs.write(f.fd,res.data)
+    })
 
 
 

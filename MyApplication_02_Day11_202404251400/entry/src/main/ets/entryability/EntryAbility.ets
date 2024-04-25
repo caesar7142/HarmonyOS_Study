@@ -1,10 +1,17 @@
-import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
+import { Ability, AbilityConstant, AbilityStage, UIAbility, Want } from '@kit.AbilityKit';
 import { hilog } from '@kit.PerformanceAnalysisKit';
 import { window } from '@kit.ArkUI';
 
 export default class EntryAbility extends UIAbility {
+  storage:LocalStorage= new LocalStorage()
   onCreate(want: Want, launchParam: AbilityConstant.LaunchParam): void {
     console.log('--1 onCreate :能力被创建了 ')
+    let ctx=this.context
+   let hub= ctx.eventHub
+    hub.on('e1',(data:string)=>{
+
+    }
+    )
   }
 
   onDestroy(): void {
@@ -15,7 +22,7 @@ export default class EntryAbility extends UIAbility {
     // Main window is created, set main page for this ability
     console.log('--2 onWindowStageCreate :窗口被创建了 ')
 
-    windowStage.loadContent('pages/IndexVideo');
+    windowStage.loadContent('pages/IndexVideo',this.storage);
   }
 
   onWindowStageDestroy(): void {

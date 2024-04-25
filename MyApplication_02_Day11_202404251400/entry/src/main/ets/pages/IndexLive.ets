@@ -1,9 +1,11 @@
 import { common, Want } from '@kit.AbilityKit';
-
-@Entry
+let s=LocalStorage.GetShared()
+@Entry({storage:s})
 @Component
 struct IndexLive {
   @State message: string = '直播';
+
+
 aboutToAppear(): void {
 }
   onPageShow(): void {
@@ -17,7 +19,8 @@ aboutToAppear(): void {
           .fontWeight(FontWeight.Bold)
     Button('显式').onClick(()=>{
       let ctx=getContext() as common.UIAbilityContext
-
+let hub=ctx.eventHub
+      hub.emit('e1','qwwww')
       let want:Want={
         bundleName:'com.example.myapplication_02_day11_202404251400',
         abilityName:'Myability1'
