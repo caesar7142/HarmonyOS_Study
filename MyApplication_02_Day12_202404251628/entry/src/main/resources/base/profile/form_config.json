@@ -1,0 +1,23 @@
+{
+  "forms": [
+    {
+      "name": "widget01",
+        "displayName": "$string:widget01_display_name",
+      "description": "$string:widget01_desc",
+      "src": "./ets/widget01/pages/Widget01Card.ets",
+      "uiSyntax": "arkts",
+      "window": {
+        "designWidth": 720,
+        "autoDesignWidth": true
+      },
+      "colorMode": "auto",
+          "isDynamic": true,
+      "isDefault": true,
+      "updateEnabled": false,
+      "scheduledUpdateTime": "10:30",
+      "updateDuration": 1,
+      "defaultDimension": "2*2",
+      "supportDimensions": ["2*2","2*4"]
+    }
+  ]
+}

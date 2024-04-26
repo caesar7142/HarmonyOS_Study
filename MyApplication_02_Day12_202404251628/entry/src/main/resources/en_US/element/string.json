@@ -12,5 +12,17 @@
       "name": "EntryAbility_label",
       "value": "label"
     }
-  ]
+  ,{
+      "name": "MyExFormAbility_desc",
+      "value": "form_description"
+    },{
+      "name": "MyExFormAbility_label",
+      "value": "form_label"
+    },{
+      "name": "widget01_desc",
+      "value": "This is a service widget.2222"
+    },{
+      "name": "widget01_display_name",
+      "value": "widget01"
+    }]
 }

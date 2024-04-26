@@ -33,20 +33,6 @@
           }
         ]
       }
-    ],"extensionAbilities": [
-      {
-        "name": "MyExFormAbility",
-        "srcEntry": "./ets/myexformability/MyExFormAbility.ets",
-        "label": "$string:MyExFormAbility_label",
-        "description": "$string:MyExFormAbility_desc",
-        "type": "form",
-        "metadata": [
-          {
-            "name": "ohos.extension.form",
-            "resource": "$profile:form_config"
-          }
-        ]
-      }
     ]
   }
 }

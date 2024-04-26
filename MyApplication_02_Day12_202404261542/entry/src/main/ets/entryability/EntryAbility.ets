@@ -1,34 +1,12 @@
 import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
 import { hilog } from '@kit.PerformanceAnalysisKit';
 import { window } from '@kit.ArkUI';
-import { formBindingData, formProvider } from '@kit.FormKit';
 
 export default class EntryAbility extends UIAbility {
-private  page:string ='pages/Index'
   onCreate(want: Want, launchParam: AbilityConstant.LaunchParam): void {
-    if(want.parameters?.page){
-      this.page=want.parameters.page as string
-    }
-
-if(want.parameters?.formId){
-  let formId=want.parameters?.formId as string
-  let data=formBindingData.createFormBindingData({xongname:'wahaha'+new Date})
-    formProvider.updateForm(formId,data)
-}
-  }
-onNewWant(want: Want, launchParam: AbilityConstant.LaunchParam): void {
-  if(want.parameters?.page){
-    this.page=want.parameters.page as string
-  }else{
-    this.page='pages/Index'
-  }
-  if(want.parameters?.formId){
-    let formId=want.parameters?.formId as string
-    let data=formBindingData.createFormBindingData({xongname:'wahaha'+new Date})
-    formProvider.updateForm(formId,data)
+    hilog.info(0x0000, 'testTag', '%{public}s', 'Ability onCreate');
   }
 
-}
   onDestroy(): void {
     hilog.info(0x0000, 'testTag', '%{public}s', 'Ability onDestroy');
   }
@@ -37,7 +15,13 @@ onNewWant(want: Want, launchParam: AbilityConstant.LaunchParam): void {
     // Main window is created, set main page for this ability
     hilog.info(0x0000, 'testTag', '%{public}s', 'Ability onWindowStageCreate');
 
-    windowStage.loadContent(this.page);
+    windowStage.loadContent('pages/Index', (err, data) => {
+      if (err.code) {
+        hilog.error(0x0000, 'testTag', 'Failed to load the content. Cause: %{public}s', JSON.stringify(err) ?? '');
+        return;
+      }
+      hilog.info(0x0000, 'testTag', 'Succeeded in loading the content. Data: %{public}s', JSON.stringify(data) ?? '');
+    });
   }
 
   onWindowStageDestroy(): void {
